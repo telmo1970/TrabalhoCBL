@@ -1,0 +1,10 @@
+.container-graficos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens mudem para a próxima linha se necessário */
+    justify-content: space-around; /* Espaçamento uniforme entre os gráficos */
+}
+
+.grafico {
+    flex: 1; /* Faz com que cada gráfico ocupe igual espaço */
+    margin: 10px; /* Espaçamento entre os gráficos */
+}
