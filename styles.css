@@ -1,0 +1,53 @@
+.container-graficos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens mudem para a próxima linha se necessário */
+    justify-content: space-around; /* Espaçamento uniforme entre os gráficos */
+}
+
+.grafico {
+    flex: 1; /* Faz com que cada gráfico ocupe igual espaço */
+    margin: 10px; /* Espaçamento entre os gráficos */
+}
+.header {
+    background-color: #f3afaf; /* Cor de fundo do retângulo */
+    padding: 20px 0; /* Espaçamento interno para dar altura ao retângulo */
+    text-align: center; /* Alinha o título ao centro */
+}
+
+.header h1 {
+    margin: 0; /* Remove a margem padrão do h1 */
+    font-family: serif;
+    font-size: 40px;
+    color: #fff;
+
+}
+/* ...seus estilos CSS anteriores... */
+
+.footer {
+    background-color: #f0f0f0; /* Cor de fundo do rodapé */
+    padding: 10px 0; /* Espaçamento interno */
+    text-align: center; /* Alinha o texto ao centro */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0; /* Remove a margem padrão */
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #333;
+    /* quero deixar sempre na parte de baixo da página */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.janela-grafico {
+    border: 2px solid #000000; /* Bordas acentuadas */
+    margin: 15px; /* Margem ao redor de cada janela */
+    padding: 10px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
